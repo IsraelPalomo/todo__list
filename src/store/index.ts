@@ -3,9 +3,13 @@ import { defineStore } from 'pinia';
 export const useStore = defineStore('main', {
   state: () => {
     return {
-      text: 'Hello Vue',
+      activeTab: '',
     };
   },
-  actions: {},
+  actions: {
+    setTab(value: string) {
+      this.activeTab = value;
+    },
+  },
   getters: {},
 });
