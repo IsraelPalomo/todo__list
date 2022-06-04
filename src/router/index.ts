@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from './views/Home.vue';
+import Dashboard from '../views/Dashboard.vue';
 
-const routes = [{ path: '/', component: Home }];
+const routes = [{ path: '/', component: Dashboard }];
 
 const history = createWebHistory();
 
