@@ -9,7 +9,7 @@
 
 .side__bar {
   height: 100vh;
-  width: 7rem;
+  width: 5rem;
   background-color: $purple;
 }
 </style>
